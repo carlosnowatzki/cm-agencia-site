@@ -124,7 +124,7 @@ button{font:inherit;color:inherit}
 .shot .bar i:nth-child(2){background:#FEBC2E}
 .shot .bar i:nth-child(3){background:#28C840}
 .shot .bar span{margin-left:8px;font:500 11px var(--mono);color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.shot img{width:100%;height:auto;background:#000}
+.shot img{display:block;width:100%;height:auto;aspect-ratio:2.2/1;object-fit:cover;object-position:top;background:#000}
 .proj .meta{display:flex;align-items:flex-end;justify-content:space-between;gap:12px;padding:14px 16px 16px}
 .proj h3{margin:0;font:800 1.02rem/1.2 var(--body);letter-spacing:-.01em}
 .proj p{margin:4px 0 0;font:500 .68rem var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
